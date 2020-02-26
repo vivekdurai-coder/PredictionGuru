@@ -1,0 +1,52 @@
+#product_input_screen{
+    width: 99%;
+    /* height: 2%; */
+    font-size: 15px;
+    color: white;
+    font-family: Courier;
+    /* border: black solid; */
+    border-radius: 12px;
+    padding: 0.5%;
+    background-color: #CB356B;
+    background-image: linear-gradient(to bottom right, #CB356B , #BD3F32);
+    font-weight: 900;
+}
+input{
+    width: 5%;
+    margin: 0.5%;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 0.5%;
+    
+}
+button{
+    background-color: #fdfbfb      ; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, #fdfbfb      , #ebedee); /* Standard syntax (must be last) */
+    width: 10%;
+    border-radius: 8px;
+    padding: 5px;
+    font-weight: bolder;
+}
+
+
+#result, #now{
+    color: black;
+    text-transform: uppercase;
+    float: right;
+    font-size: 20px;
+    font-family: monospace;
+    width: 10%;
+    border-radius: 8px;
+    padding: 0.5%;
+    font-weight: bolder;
+    background-color: #c23b46;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: #fdfbfb      ; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, #fdfbfb      , #ebedee); /* Standard syntax (must be last) */
+  }
+
